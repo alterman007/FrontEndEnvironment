@@ -12,7 +12,6 @@
     - git push origin master
 - 忽略文件 .gitignore
 
-
 ## eslint
 - 安装sublime插件
     - Package Control: 1) SublimeLinter 2) SublimeLinter-contrib-eslint
@@ -159,3 +158,6 @@ module.exports = {
     }
 }
 ```
+
+## markdown插件
+- MarkdownEditing
