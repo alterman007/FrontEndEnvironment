@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/alterman007/FrontEndEnvironment/issues"
   },
-  "homepage": "https://github.com/alterman007/FrontEndEnvironment#readme"
+  "homepage": "https://github.com/alterman007/FrontEndEnvironment#readme",
+  "devDependencies": {
+    "babel-eslint": "7.1.1",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "13.0.0",
+    "eslint-config-airbnb-base": "10.0.1",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-import-resolver-webpack": "0.8.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.7.1",
+    "eslint-plugin-redux-saga": "0.1.5",
+    "eslint-plugin-standard": "^2.0.1"
+  }
 }
