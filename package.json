@@ -1,0 +1,19 @@
+{
+  "name": "front-end-environment",
+  "version": "1.0.0",
+  "description": "github, webpack, eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alterman007/FrontEndEnvironment.git"
+  },
+  "author": "alterman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alterman007/FrontEndEnvironment/issues"
+  },
+  "homepage": "https://github.com/alterman007/FrontEndEnvironment#readme"
+}
