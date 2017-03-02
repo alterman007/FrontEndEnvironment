@@ -4,9 +4,6 @@ import NavLink from './NavLinks';
 
 import './style.css';
 export default class Index extends Component {
-  constructor(props) {
-    super(props);
-  }
   static propTypes = {
     children: PropTypes.object,
   }
