@@ -26,3 +26,29 @@ git branch  // 查看分支
 git branch -d branchname // 删除分支
 
 git merge antherbranchname // 将另一分支的工作合并到当前分支
+
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
