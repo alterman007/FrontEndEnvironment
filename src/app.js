@@ -6,7 +6,8 @@ import Home from './routestudy/Home';
 import About from './routestudy/About';
 import Repos from './routestudy/Repos';
 import Repo from './routestudy/Repo';
-
+window.ReactDOM = ReactDOM;
+window.React = React;
 ReactDOM.render(
   <Router history={browserHistory} >
     <Route path="/" component={Index}>

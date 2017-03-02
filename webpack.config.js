@@ -1,10 +1,12 @@
+// import path from 'path';
 const path = require('path');
+
 module.exports = {
   entry: './src/app.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'public'),
     filename: 'boundle.js',
-    publicPath: 'build',
+    publicPath: '/',
   },
   module: {
     loaders: [

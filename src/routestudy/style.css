@@ -1,3 +1,6 @@
 .active {
   color: red;
 }
+input[type="text"] {
+  display: block;
+}
