@@ -69,39 +69,20 @@
 	var Hello = (_temp = _class = function (_Component) {
 	  _inherits(Hello, _Component);
 
-	  function Hello(props) {
+	  function Hello() {
 	    _classCallCheck(this, Hello);
 
-	    var _this = _possibleConstructorReturn(this, (Hello.__proto__ || Object.getPrototypeOf(Hello)).call(this, props));
-
-	    _this.handleChange = function (ev) {
-	      _this.setState({
-	        name: ev.target.value
-	      });
-	    };
-
-	    _this.state = {
-	      name: _this.props.name || 'world'
-	    };
-	    return _this;
+	    return _possibleConstructorReturn(this, (Hello.__proto__ || Object.getPrototypeOf(Hello)).apply(this, arguments));
 	  }
 
 	  _createClass(Hello, [{
 	    key: 'render',
 	    value: function render() {
-	      var _state$name = this.state.name,
-	          name = _state$name === undefined ? 'world' : _state$name;
-
 	      return _react2.default.createElement(
 	        'div',
 	        null,
-	        _react2.default.createElement('input', { value: name, onChange: this.handleChange }),
-	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Hello ',
-	          name
-	        )
+	        'hello ',
+	        name
 	      );
 	    }
 	  }]);
