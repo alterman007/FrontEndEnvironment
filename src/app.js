@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import Index from './routestudy/Index';
 import Home from './routestudy/Home';
 import About from './routestudy/About';
@@ -8,7 +8,7 @@ import Repos from './routestudy/Repos';
 import Repo from './routestudy/Repo';
 
 ReactDOM.render(
-  <Router history={hashHistory} >
+  <Router history={browserHistory} >
     <Route path="/" component={Index}>
       <IndexRoute component={Home} />
       <Route path="/about" component={About} />
