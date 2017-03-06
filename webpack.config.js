@@ -1,4 +1,5 @@
 const path = require('path');
+const autoprefixer = require('autoprefixer');
 module.exports = {
   entry: './src/app.js',
   output: {
@@ -21,9 +22,19 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        loaders: ['style', 'css'],
+        test: /\.scss$/,
+        loaders: [
+          'style',
+          'css',
+          'postcss',
+          'sass',
+        ],
       },
     ],
   },
+  postcss: () => [
+    autoprefixer({
+      browsers: ['last 5 versions'],
+    }),
+  ],
 };
