@@ -30,6 +30,7 @@ const average = reduce(add, 0);
 const demo3 = compose(average, map(prop('dollar_value')));
 const demo4 = compose(replace(/\W+/g, '_'));
 const demo5 = compose(join(', '), map((car) => car.dollar_value.toString()), filter(prop('in_stock')));
+
 console.log(demo1(CARS));
 console.log(demo2(CARS));
 console.log(demo3(CARS));
