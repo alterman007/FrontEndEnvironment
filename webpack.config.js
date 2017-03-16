@@ -30,6 +30,13 @@ module.exports = {
           'sass',
         ],
       },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url',
+        query: {
+
+        },
+      },
     ],
   },
   postcss: () => [
